@@ -235,10 +235,10 @@ $(function () {
     function initPlayer() {
         audio = new Audio();
 
-        selectTrack(0);
+        selectTrack(1);
 
-        audio.loop = true;
-        playPause()
+        audio.loop = false;
+
         playPauseButton.on('click', playPause);
 
         sArea.mousemove(function (event) { showHover(event); });
@@ -254,4 +254,6 @@ $(function () {
     }
 
     initPlayer();
+
+
 });

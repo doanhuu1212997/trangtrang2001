@@ -63,7 +63,7 @@ body
     /* height: 100%; */
     z-index: 3;
     bottom: 20px;
-    right: 0;
+    right: 0;    height: 100px;
 }
 
 #player-track
@@ -93,6 +93,7 @@ body
     color: #54576f;
     font-size: 17px;
     font-weight: bold;
+
 }
 
 #track-name
